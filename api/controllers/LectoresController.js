@@ -20,6 +20,7 @@ module.exports = {
 			}else{
 				res.view('agregar');
 			}
+			
 
     },
     create:function(req, res){

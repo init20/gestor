@@ -65,14 +65,18 @@ module.exports = {
       localStorage.getItem('Authorization');
       //res.header("Authorization", token);
       //var aux = {'Authorization: '+token};
-      headers: {authorization: token};
+      //headers: {authorization: token};
 
         //res.view('lista_lectores', headers, {lectores:lectores});
-        req.authorization = token;
-        res.cookie('authorization', token, {signed:true});
+      req.authorization = token;
+      res.cookie('authorization', token, {signed:true});
+      console.log(email);
+      if(email=="rpi@uv.cl"){
+        return res.ok({token});
+      }
+      res.redirect('/lectores/lista');
 
-        res.redirect('/lectores/lista');
-        return token;
+
 
 
     }

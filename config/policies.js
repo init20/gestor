@@ -25,11 +25,10 @@ module.exports.policies = {
   },
   LectoresController:{
     lista: true,
-    actualizar: true,
   },
   ClasesController:{
     lista: true,
-    create: false,
+    create: 'isLoggedIn',
     agregar:true,
     delete: true,
     edit: true,
@@ -37,7 +36,7 @@ module.exports.policies = {
   },
   AsistenciasController:{
     list:true,
-    create:false,
+    create:'isLoggedIn',
   }
  //funcionarios red academicos
 

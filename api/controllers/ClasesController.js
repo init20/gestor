@@ -24,9 +24,8 @@ module.exports = {
 
     		Clases.create({id_cla:id_cla, id_lec:id_lec, fecha:fecha, runAcademico:runAcademico, horaInicio:horaInicio, horaTermino:horaTermino}).exec(function(err){
             if(err){
-                res.send(500, {error: 'Database Error'});
+                res.send(500, {error: 'Database Errorrrr'});
             }
-
             res.redirect('/clases/lista');
         });
     },
