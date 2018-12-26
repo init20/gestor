@@ -39,24 +39,6 @@ module.exports.datastores = {
   // database: 'portal_db'
   default: {
 
-    /***************************************************************************
-     *                                                                          *
-     * Want to use a different database during development?                     *
-     *                                                                          *
-     * 1. Choose an adapter:                                                    *
-     *    https://sailsjs.com/plugins/databases                                 *
-     *                                                                          *
-     * 2. Install it as a dependency of your Sails app.                         *
-     *    (For example:  npm install sails-mysql --save)                        *
-     *                                                                          *
-     * 3. Then pass it in, along with a connection URL.                         *
-     *    (See https://sailsjs.com/config/datastores for help.)                 *
-     *                                                                          *
-     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
-
-//base de datos mysql
 
     adapter: 'sails-mysql',
     host: 'localhost',
@@ -64,20 +46,6 @@ module.exports.datastores = {
     user: 'root', //optional
     password: '', //optional
     database: 'probando123' //optional
-
-  /*
-    adapter: 'sails-sqlserver',
-    user: 'sa',
-    password: 'gatito',
-    host: 'DESKTOP-L0P36JS\SQLEXPRESS', // azure database DESKTOP-L0P36JS
-    database: 'gestor'*/
-    /*
-    adapter: 'sails-sqlserver-sailsv1',
-    user: 'sa',
-    password: 'gatito',
-    host: 'DESKTOP-L0P36JS\SQLEXPRESS',
-    database: 'gestor'*/
-
 
 
 

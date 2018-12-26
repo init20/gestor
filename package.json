@@ -1,5 +1,5 @@
 {
-  "name": "gestor_1",
+  "name": "gestor",
   "private": true,
   "version": "0.0.0",
   "description": "Gestor de capturadores de asistencia",
@@ -11,11 +11,13 @@
     "jsonwebtoken": "^8.1.1",
     "localStorage": "^1.0.4",
     "lodash": "3.10.1",
+    "nodemon": "^1.18.9",
     "request": "^2.88.0",
     "sails": "^1.0.0-45",
     "sails-hook-orm": "^2.0.0-16",
     "sails-hook-sockets": "^1.4.0",
     "sails-mssql": "^0.1.1",
+    "sails-mssqlserver": "^0.14.3",
     "sails-mysql": "^1.0.0-17",
     "sails-sqlserver": "^0.10.8",
     "sails-sqlserver-sailsv1": "^0.10.10"
