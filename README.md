@@ -3,7 +3,7 @@
 
 ### Version
 1.0.0
-node version 8.11.3
+node version 8.11.4
 
 ## US0
 
@@ -12,10 +12,10 @@ node version 8.11.3
 # gestor de dispositivos
 descargar repositorio
 ```sh
-git clone https://github.com/init20/gestor_1.git
+git clone https://github.com/init20/gestor.git
 ```
 ```sh
-cd gestor_1
+cd gestor
 ```
 Instalar dependencias
 
